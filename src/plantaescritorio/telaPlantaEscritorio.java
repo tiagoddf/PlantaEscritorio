@@ -27,7 +27,7 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton1 = new javax.swing.JButton();
+        jButton_Lugar1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
@@ -36,17 +36,17 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_emuso.png"))); // NOI18N
-        jButton1.setMaximumSize(new java.awt.Dimension(32, 32));
-        jButton1.setMinimumSize(new java.awt.Dimension(32, 32));
-        jButton1.setPreferredSize(new java.awt.Dimension(32, 32));
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
+        jButton_Lugar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_vazio.png"))); // NOI18N
+        jButton_Lugar1.setMaximumSize(new java.awt.Dimension(32, 32));
+        jButton_Lugar1.setMinimumSize(new java.awt.Dimension(32, 32));
+        jButton_Lugar1.setPreferredSize(new java.awt.Dimension(32, 32));
+        jButton_Lugar1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
+                jButton_Lugar1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1);
-        jButton1.setBounds(290, 80, 40, 30);
+        getContentPane().add(jButton_Lugar1);
+        jButton_Lugar1.setBounds(290, 80, 40, 30);
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/vazio_amarelo.png"))); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -82,11 +82,12 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void jButton_Lugar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_Lugar1ActionPerformed
         // TODO add your handling code here:
         MenuUsuario edit = new MenuUsuario();
-        edit.setVisible(true);
-    }//GEN-LAST:event_jButton1ActionPerformed
+        edit.setVisible(true); 
+        jButton_Lugar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_emuso.png")));
+    }//GEN-LAST:event_jButton_Lugar1ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
@@ -136,16 +137,18 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new telaPlantaEscritorio().setVisible(true);
+                telaPlantaEscritorio frame = new telaPlantaEscritorio();
+                frame.setSize(500,300);
+                frame.setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton_Lugar1;
     private javax.swing.JLabel jLabel_FundoPlanta;
     // End of variables declaration//GEN-END:variables
 }
