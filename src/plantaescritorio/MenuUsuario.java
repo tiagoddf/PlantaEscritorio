@@ -109,7 +109,13 @@ public class MenuUsuario extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        //jButton_Lugar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_emuso.png")));
+          telaPlantaEscritorio planta = new telaPlantaEscritorio();
+          planta.usar();
+   /*       if(jComboBox1.getSelectedItem().equals("Usuario")){
+              
+          }
+          //jButton_Lugar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_emuso.png")));
+          */
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**

@@ -86,9 +86,14 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
         // TODO add your handling code here:
         MenuUsuario edit = new MenuUsuario();
         edit.setVisible(true); 
-        jButton_Lugar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_emuso.png")));
     }//GEN-LAST:event_jButton_Lugar1ActionPerformed
 
+    public void usar(){
+        jButton_Lugar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_emuso.png")));
+    }
+    
+
+    
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
         MenuUsuario edit = new MenuUsuario();
