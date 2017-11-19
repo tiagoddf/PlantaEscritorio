@@ -85,7 +85,8 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
     private void jButton_Lugar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_Lugar1ActionPerformed
         // TODO add your handling code here:
         MenuUsuario edit = new MenuUsuario();
-        edit.setVisible(true); 
+        edit.setVisible(true);
+        // jButton_Lugar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_emuso.png")));
     }//GEN-LAST:event_jButton_Lugar1ActionPerformed
 
     public void usar(){
