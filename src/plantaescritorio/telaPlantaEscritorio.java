@@ -48,7 +48,7 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
         getContentPane().add(jButton_Lugar1);
         jButton_Lugar1.setBounds(290, 80, 40, 30);
 
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/vazio_amarelo.png"))); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_amarelo.png"))); // NOI18N
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -57,7 +57,7 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
         getContentPane().add(jButton2);
         jButton2.setBounds(310, 190, 40, 30);
 
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/vazio_verde.png"))); // NOI18N
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_verde.png"))); // NOI18N
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton3ActionPerformed(evt);
@@ -66,7 +66,7 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
         getContentPane().add(jButton3);
         jButton3.setBounds(220, 90, 40, 30);
 
-        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/vazio_vermelho.png"))); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_vermelho.png"))); // NOI18N
         jButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton4ActionPerformed(evt);

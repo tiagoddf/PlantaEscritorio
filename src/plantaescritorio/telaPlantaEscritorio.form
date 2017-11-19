@@ -52,7 +52,7 @@
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imgs/vazio_amarelo.png"/>
+          <Image iconType="3" name="/imgs/computador_amarelo.png"/>
         </Property>
       </Properties>
       <Events>
@@ -67,7 +67,7 @@
     <Component class="javax.swing.JButton" name="jButton3">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imgs/vazio_verde.png"/>
+          <Image iconType="3" name="/imgs/computador_verde.png"/>
         </Property>
       </Properties>
       <Events>
@@ -82,7 +82,7 @@
     <Component class="javax.swing.JButton" name="jButton4">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imgs/vazio_vermelho.png"/>
+          <Image iconType="3" name="/imgs/computador_vermelho.png"/>
         </Property>
       </Properties>
       <Events>
