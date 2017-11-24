@@ -42,7 +42,7 @@ public class Info extends javax.swing.JFrame {
 
         jButton2.setText("jButton2");
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_emuso.png"))); // NOI18N
 
