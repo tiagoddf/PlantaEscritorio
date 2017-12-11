@@ -74,7 +74,7 @@ public class Info extends javax.swing.JFrame {
 
         jLabel5.setText("Rostinho = Ocupado (um usuário)");
 
-        jLabel6.setText("Sem fundo = base para nova cor");
+        jLabel6.setText("Sem fundo = Lugar para alocar");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

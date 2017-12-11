@@ -8,7 +8,7 @@ package plantaescritorio;
 /**
  *
  * @author tduarte
- */
+*/
 public class telaPlantaEscritorio extends javax.swing.JFrame {
 
     /**
@@ -27,11 +27,23 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jMenuBar2 = new javax.swing.JMenuBar();
+        jMenu3 = new javax.swing.JMenu();
+        jMenu4 = new javax.swing.JMenu();
         jButton_Lugar1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jLabel_FundoPlanta = new javax.swing.JLabel();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
+
+        jMenu3.setText("File");
+        jMenuBar2.add(jMenu3);
+
+        jMenu4.setText("Edit");
+        jMenuBar2.add(jMenu4);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -77,7 +89,15 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
 
         jLabel_FundoPlanta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/planta_fundo.jpg"))); // NOI18N
         getContentPane().add(jLabel_FundoPlanta);
-        jLabel_FundoPlanta.setBounds(0, 0, 530, 340);
+        jLabel_FundoPlanta.setBounds(0, 20, 530, 340);
+
+        jMenu1.setText("File");
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Edit");
+        jMenuBar1.add(jMenu2);
+
+        setJMenuBar(jMenuBar1);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -157,5 +177,11 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton_Lugar1;
     private javax.swing.JLabel jLabel_FundoPlanta;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuBar jMenuBar2;
     // End of variables declaration//GEN-END:variables
 }
