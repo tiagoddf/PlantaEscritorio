@@ -89,7 +89,7 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
 
         jLabel_FundoPlanta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/planta_fundo.jpg"))); // NOI18N
         getContentPane().add(jLabel_FundoPlanta);
-        jLabel_FundoPlanta.setBounds(0, 20, 530, 340);
+        jLabel_FundoPlanta.setBounds(0, 0, 530, 340);
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
@@ -105,7 +105,7 @@ public class telaPlantaEscritorio extends javax.swing.JFrame {
     private void jButton_Lugar1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_Lugar1ActionPerformed
         // TODO add your handling code here:
         int id = 1;
-        MenuUsuario edit = new MenuUsuario(id);
+        MenuUsuario edit = new MenuUsuario();
         edit.setVisible(true);
         // jButton_Lugar1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/computador_emuso.png")));
     }//GEN-LAST:event_jButton_Lugar1ActionPerformed
